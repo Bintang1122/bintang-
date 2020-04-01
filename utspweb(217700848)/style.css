@@ -1,0 +1,121 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri;
+  padding: 10px;
+  background: #C1AFAF;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.navigasi {
+  overflow: hidden;
+  background-color: purple ;
+}
+
+
+.navigasi a {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.navigasi a:hover {
+	
+  background-color: black;
+  color: putih;
+}
+
+
+.sisikiri {   
+  float: left;
+  width: 75%;
+  overflow:auto;
+  
+}
+
+
+.sisikanan {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  background-color: #f1f1f1;
+}
+
+
+
+
+.images {
+ 
+  padding: 10px;
+  text-align:left;
+  overflow:auto
+}
+
+
+.images2 {
+	text-align:center;
+	padding: 10px;
+	overflow:auto;
+	background-color: #aaa;
+}
+
+
+.konten1 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+
+
+
+.konten:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #F53636;
+  margin-top: 20px;
+
+}
+
+{
+  .siskiri, .sisikanan {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+{
+  .navigasi a {
+    float: none;
+    width: 100%;
+  }
+}
